@@ -1,7 +1,6 @@
 spring:
   redis:
     host: 47.112.7.219
-    password: itkaven
     port: 6379
   datasource:
     username: root
