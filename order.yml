@@ -1,4 +1,7 @@
 spring:
+  redis:
+    host: 47.112.7.219
+    port: 6379
   datasource:
     username: root
     password: ITkaven@123
