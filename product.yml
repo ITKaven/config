@@ -1,4 +1,9 @@
 spring:
+  rabbitmq:
+    addresses: 47.112.7.219
+    port: 5672
+    username: guest
+    password: guest
   datasource:
     username: root
     password: ITkaven@123
