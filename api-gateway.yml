@@ -1,0 +1,9 @@
+spring:
+  rabbitmq:
+    addresses: 47.112.7.219
+    port: 5672
+    username: guest
+    password: guest
+
+server:
+  port: 8084
