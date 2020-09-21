@@ -1,4 +1,7 @@
 spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
   rabbitmq:
     addresses: 47.112.7.219
     port: 5672
