@@ -7,3 +7,16 @@ spring:
 
 server:
   port: 8084
+ 
+zuul:
+  routes:
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
+#      sensitiveHeaders:
+#    product: /myProduct/**
+
+  ignored-patterns:
+    - /**/product/decreaseStock
+    - /**/product/listForOrder
+  sensitive-headers: 
