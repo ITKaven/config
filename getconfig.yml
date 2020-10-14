@@ -1,11 +1,4 @@
 server:
   port: 8000
 
-spring:
-  rabbitmq:
-    addresses: 47.112.7.219
-    port: 5672
-    username: guest
-    password: guest
-
-kaven: "hello , kaven , hahaha"
+kaven: "hello , kaven , ha"
